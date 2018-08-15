@@ -53,8 +53,7 @@ fprintf('\nTraining Neural Network... \n')
 lambda = 1;
 Iterations = 1000;
 Alpha = 2;
-[J,Theta1,Theta2,b1,b2,w1,w2,w3,w4] = Gradient_Descent(data,labels,Theta1,Theta2,lambda,Iterations,Alpha,b1,b2,w1,w2,w3,w4,offset ...
-                                            );
+[J,Theta1,Theta2,b1,b2,w1,w2,w3,w4] = Momentum_Update(data,labels,Theta1,Theta2,lambda,Iterations,Alpha,b1,b2,w1,w2,w3,w4,offset);
 
 fprintf('Program done\n');
 % pause;
