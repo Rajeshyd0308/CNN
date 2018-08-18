@@ -1,5 +1,5 @@
 # CNN
-A convolution neural network for image classification on CIFAR-10 dataset implemented in MATLAB.
+A convolution neural network for image classification on CIFAR-10 dataset implemented in MATLAB with accuracy of 74% on test set.
 <br>
 Both forward and backpropagation have been implemented in detail(without the help of any ML libraries)
 <br>
